@@ -7,7 +7,7 @@ public class Es4 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserisci il numero da cui far partire il countdown");
-        int num1 = Integer.parseInt(scanner.nextLine()); // 20
+        int num1 = Integer.parseInt(scanner.nextLine());
 
         for (int i = num1; i <= num1; i--) {
             if (i == -1) break;
